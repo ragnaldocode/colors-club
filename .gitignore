@@ -1,25 +1,38 @@
-# Dependencies
+# Dependências
 node_modules/
-venv/
-.venv/
-__pycache__/
-*.py[cod]
 
-# Build output
+# Expo
+.expo/
 dist/
-build/
-*.egg-info/
+web-build/
+expo-env.d.ts
 
-# Environment / secrets
+# Nativo gerado
+.ios/
+.android/
+.kt/
+
+# Segredos e ambiente local
 .env
 .env.*
 !.env.example
 
-# Editor / OS
+# Metro / logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS / editores
 .DS_Store
+*.pem
+*.tsbuildinfo
 .idea/
-.vscode/
 *.swp
 
-# Logs
-*.log
+# Chaves e perfis de assinatura
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
